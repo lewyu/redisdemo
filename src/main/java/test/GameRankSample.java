@@ -8,8 +8,11 @@ import java.util.UUID;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Tuple;
 
+
 public class GameRankSample {
     static int TOTAL_SIZE = 20;
+
+
 
     public static void main(String[] args) {
         //Redis数据库连接地址
